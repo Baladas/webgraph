@@ -5,7 +5,7 @@ require_once("utils_webgraph.php");
 //Checking to see if the user inputted all the required info and the passwords match, if they do insert into database, if not, give user a message and make retry registering
 if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["password2"]) ) {
   if($_POST["password"] === $_POST["password2"]) {
-    $db = new PDO('mysql:localhost;port=3306;dbname=muistilista;charset=utf8', 'root', 'virtanen30');
+    $db = new PDO('mysql:localhost;port=3306;dbname=muistilista;charset=utf8', 'xx', 'xx');
 
 	$username = $_POST["username"];
     $password = $_POST["password"];
