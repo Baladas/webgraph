@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /suomalainen.me/webgraph.php
+Disallow: /suomalainen.me/register_webgraph.php
+Disallow: /suomalainen.me/login_webgraph.php
+Disallow: /suomalainen.me/utils_webgraph.php
+Disallow: /suomalainen.me/logout_webgraph.php
+
+Sitemap: http://suomalainen.me/sitemap.xml

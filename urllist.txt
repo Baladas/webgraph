@@ -1,0 +1,4 @@
+suomalainen.me/webgraph.php
+suomalainen.me/login_webgraph.php
+suomalainen.me/register_webgraph.php
+suomalainen.me/logout_webgraph.php
