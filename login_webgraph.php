@@ -5,7 +5,7 @@ require_once("utils_webgraph.php");
 if(isset($_POST["username"]) && isset($_POST["password"])) {
 
 
-	  $db = new PDO('mysql:localhost;port=3306;dbname=muistilista;charset=utf8', 'root', 'virtanen30');
+	  $db = new PDO('mysql:localhost;port=3306;dbname=muistilista;charset=utf8', 'xx', 'xx');
 		
 	  $username = $_POST["username"];
 	  $password = $_POST["password"];
